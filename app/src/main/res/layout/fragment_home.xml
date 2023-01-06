@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".Home">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="80dp"
+        android:text="Hallo! Mijn naam is "
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="196dp"
+        android:layout_marginTop="80dp"
+        android:text="Roï Eielts."
+        android:textColor="#ff5349"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="100dp"
+        android:text="Software Developer"
+        android:textColor="#0d93b4"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="120dp"
+        android:text="Een kopje koffie is een must have ☕☕"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="433dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="15dp"
+        android:text='public class firstInteraction {\n  public static void main(String args[]) {
+                                    \n
+                                    \n      firstInteraction fi = new firstInteraction();
+                                    \n      System.out.println(fi.sayHello());
+                           \n   }
+\n
+\n
+    public String sayHello() {
+\n          return "Hello there";
+                            \n  }
+                        \n}'
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        android:background="@android:color/transparent"
+        android:text="mijn werk >"
+        android:textColor="#ff5349"
+        android:textStyle="bold"
+        android:visibility="visible" />
+    <Button
+        android:id="@+id/About_mebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="leer meer over mij >"
+        android:layout_marginTop="550dp"
+        android:textStyle="bold"
+        android:textColor="#ff5349"
+        android:background="@android:color/transparent"/>
+
+</FrameLayout>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".Projects">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:text="Projecten"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="60dp"
+            android:text="Project 1: Portfolio app"
+            android:textColor="#ff5349"
+            android:textSize="23dp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="85dp"
+            android:text="Met dit project heb ik een app gemaakt (wat u tevens nu gebruikt) zodat ik mijn kennis kan laten zien en te kunnen laten zien wie ik ben."
+            android:textColor="@color/white"
+            android:textSize="20dp"
+             />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="175dp"
+            android:text='project tools &amp; talen'
+            android:textColor="@color/white"
+            android:textSize="23dp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="200dp"
+            android:text='Tools: Android Studio en git.\nProgrameer taal: XML, Kotlin en gradle'
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            />
+        <Button
+            android:id="@+id/portfolio_app"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="260dp"
+            android:background="@android:color/transparent"
+            android:text="Open dit project >"
+            android:textColor="#ff5349"
+            android:textStyle="bold"
+            android:visibility="visible" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="320dp"
+            android:text="Project 2: Pokemon game via console."
+            android:textColor="#ff5349"
+            android:textSize="23dp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="350dp"
+            android:text="bij dit project moest ik een pokemon game maken waarbij je verschillende opties had binnen de pokemon game en alles via de console werkten."
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="445dp"
+            android:text='project tools &amp; talen'
+            android:textColor="@color/white"
+            android:textSize="23dp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="475dp"
+            android:text='Tools: Intellij IDE, sourcetree\nProgrameer taal: java, XML en SQL.'
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            />
+        <Button
+            android:id="@+id/pokemon_game"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="535dp"
+            android:background="@android:color/transparent"
+            android:text="Open dit project >"
+            android:textColor="#ff5349"
+            android:textStyle="bold"
+            android:visibility="visible" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="595dp"
+            android:text="Project 3: simpele Rekenmachine."
+            android:textColor="#ff5349"
+            android:textSize="23dp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="625dp"
+            android:text="Bij dit project moest ik een rekenmachine maken waarbij ik alleen de opparators + en - mocht gebruiken."
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="700dp"
+            android:text='project tools &amp; talen'
+            android:textColor="@color/white"
+            android:textSize="23dp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="730dp"
+            android:text='Tools: Eclipse en Struts\nProgrameer taal: java'
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            />
+        <Button
+            android:id="@+id/Rekenmachine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="790dp"
+            android:background="@android:color/transparent"
+            android:text="Open dit project >"
+            android:textColor="#ff5349"
+            android:textStyle="bold"
+            android:visibility="visible" />
+    </RelativeLayout>
+</ScrollView>
