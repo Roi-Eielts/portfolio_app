@@ -149,7 +149,7 @@
             android:textSize="20dp"
             />
         <Button
-            android:id="@+id/Rekenmachine"
+            android:id="@+id/QR_codeApp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="790dp"
@@ -158,5 +158,42 @@
             android:textColor="#ff5349"
             android:textStyle="bold"
             android:visibility="visible" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="840dp"
+            android:text="Project 3: QR-code app (current project)"
+            android:textColor="#ff5349"
+            android:textSize="23dp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="900dp"
+            android:text="Bij dit project moest ik een qr-code app maken waarmee mensen konden inklokken."
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="950dp"
+            android:text='project tools &amp; talen'
+            android:textColor="@color/white"
+            android:textSize="23dp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="990dp"
+            android:text='Tools: Eclipse, android studio, struts2 en hibernate\nProgrameer taal: java, html, SQL/HQL'
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            />
     </RelativeLayout>
 </ScrollView>

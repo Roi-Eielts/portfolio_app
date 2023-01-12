@@ -25,7 +25,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="@color/white"
-        android:text="Hallo! Mijn naam is Roï Eielts, ben 18 jaar uit en ik ben geboren in Goes op 7 september 2004. Persoonlijk ben ik ben zelf erg geduldig, vrolijk, optimistisch, zelfstandig en ik ben altijd een persoon die doorzet als iets tegenzit. Daarnaast heb ik een bijbaantje als slagerij medewerker bij de jumbo foodcorner in Goes. Natuurlijk heb ik hobby`s met als mijn favoriete hobby auto`s spotten, maar ik vind het ook leuk om paarden te verzorgen en met de auto rijden. Verder doe ik ook nog een opleiding genaamd Software Development waarbij ik in leerjaar 2 zit. Ik heb deze opleiding gekozen om mijn kennis op computers te kunnen verbeteren en om te leren hoe je een applicatie te ontwikkelen."
+        android:text="Hallo! Mijn naam is Roï Eielts, ben 18 jaar oud en ik ben geboren in Goes op 7 september 2004. Persoonlijk ben ik ben zelf erg geduldig, vrolijk, optimistisch, zelfstandig en ik ben altijd een persoon die doorzet als iets tegenzit. Daarnaast heb ik een bijbaantje als slagerij medewerker bij de jumbo foodcorner in Goes. Natuurlijk heb ik hobby`s met als mijn favoriete hobby auto`s spotten, maar ik vind het ook leuk om paarden te verzorgen en met de auto rijden. Verder doe ik ook nog een opleiding genaamd Software Development waarbij ik in leerjaar 2 zit. Ik heb deze opleiding gekozen om mijn kennis op computers te kunnen verbeteren en om te leren hoe je een applicatie te ontwikkelen."
         android:textStyle="normal"
         android:textSize="20dp"
         android:layout_marginTop="60dp"

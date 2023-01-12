@@ -32,7 +32,7 @@ class Contact : Fragment() {
             val email = emailet.getText().toString()
             val bericht = berichtet.getText().toString()
 
-            val emailbody = bericht + "\n\n\nVerzonden door: " + naam + "\nEmail adres: " + email
+            val emailbody = bericht
 
             val intent = Intent(Intent.ACTION_SEND)
             intent.putExtra(Intent.EXTRA_EMAIL, arrayOf("roieielts@gmail.com"))
@@ -43,7 +43,6 @@ class Contact : Fragment() {
             startActivity(Intent.createChooser(intent, "Choose an Email client :"))
 
         }
-
         return view
     }
 
