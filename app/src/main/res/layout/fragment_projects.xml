@@ -172,7 +172,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="900dp"
-            android:text="Bij dit project moest ik een qr-code app maken waarmee mensen konden inklokken."
+            android:text="Bij dit project moest  ik een qr-code app maken waarmee mensen konden inklokken."
             android:textColor="@color/white"
             android:textSize="20dp"
             />
