@@ -43,7 +43,7 @@
     <ImageView
         android:layout_width="180dp"
         android:layout_height="300dp"
-        android:contentDescription="general grievous"
+        android:contentDescription="dit ben ik"
         android:src="@drawable/roi"
         android:layout_marginTop="460dp"
         android:layout_gravity="center_horizontal"/>
